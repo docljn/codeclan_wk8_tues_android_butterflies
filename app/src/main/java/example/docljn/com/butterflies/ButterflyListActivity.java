@@ -3,11 +3,13 @@ package example.docljn.com.butterflies;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ButterflyListActvity extends AppCompatActivity {
+public class ButterflyListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_butterfly_list_actvity);
+        setContentView(R.layout.activity_butterfly_list_activity);
+
+
     }
 }
