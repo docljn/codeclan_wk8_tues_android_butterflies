@@ -15,7 +15,7 @@ public class ButterflyTest {
 
     @Before
     public void before() {
-        butterfly = new Butterfly("Common Name", "Latin Name", "res.image.location");
+        butterfly = new Butterfly("Common Name", "Latin Name", 1);
     }
 
     @Test
@@ -30,6 +30,6 @@ public class ButterflyTest {
 
     @Test
     public void getsImageLocation(){
-        assertEquals("res.image.location", butterfly.getImageLocation());
+        assertEquals(1, butterfly.getImageID());
     }
 }

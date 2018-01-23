@@ -7,9 +7,9 @@ package example.docljn.com.butterflies;
 public class Butterfly {
     private String commonName;
     private String latinName;
-    private String imageID;
+    private int imageID;
 
-    public Butterfly(String commonName, String latinName, String imageID){
+    public Butterfly(String commonName, String latinName, int imageID){
 
         this.commonName = commonName;
         this.latinName = latinName;
@@ -24,7 +24,7 @@ public class Butterfly {
         return this.latinName;
     }
 
-    public String getImageLocation() {
+    public int getImageID() {
         return this.imageID;
     }
 }
