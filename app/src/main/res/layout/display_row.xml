@@ -42,4 +42,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/ic_launcher"
         android:layout_marginLeft="8dp" />
+
 </android.support.constraint.ConstraintLayout>
